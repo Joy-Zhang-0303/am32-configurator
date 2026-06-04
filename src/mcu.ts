@@ -64,6 +64,15 @@ class Mcu {
                 flash_offset: '0x08000000',
                 firmware_start: '0x1000',
                 eeprom_offset: '0xF800'
+            },
+            1506: {
+                name: 'NXP ESC_8KB_PAGE',
+                signature: '0x1506',
+                page_size: 1024,
+                flash_size: 65536,
+                flash_offset: '0x08000000',
+                firmware_start: '0x4000',
+                eeprom_offset: '0xE000'
             }
         };
 
